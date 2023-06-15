@@ -43,7 +43,7 @@ const clients = [
   {
     id: 2,
     companyName: 'Second Company',
-    companyStatus: 'active',
+    companyStatus: 'procesing',
     details: {
       address: 'address of second company',
       city: 'los angeles',
@@ -82,7 +82,7 @@ const clients = [
   {
     id: 3,
     companyName: 'Third Company',
-    companyStatus: 'inactive',
+    companyStatus: 'scheduled',
     details: {
       address: 'address of third company',
       city: 'san francisco',
@@ -119,7 +119,7 @@ const clients = [
   {
     id: 4,
     companyName: 'Fourth Company',
-    companyStatus: 'active',
+    companyStatus: 'procesing',
     details: {
       address: 'address of fourth company',
       city: 'new york',
@@ -158,7 +158,7 @@ const clients = [
   {
     id: 5,
     companyName: 'Fifth Company',
-    companyStatus: 'active',
+    companyStatus: 'procesing',
     details: {
       address: 'address of fifth company',
       city: 'chicago',
@@ -195,7 +195,7 @@ const clients = [
   {
     id: 6,
     companyName: 'Sixth Company',
-    companyStatus: 'inactive',
+    companyStatus: 'scheduled',
     details: {
       address: 'address of sixth company',
       city: 'houston',
@@ -232,7 +232,7 @@ const clients = [
   {
     id: 7,
     companyName: 'Seventh Company',
-    companyStatus: 'active',
+    companyStatus: 'procesing',
     details: {
       address: 'address of seventh company',
       city: 'miami',

@@ -1,14 +1,16 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes,Limk } from 'react-router-dom';
 import App from '../App';
 import Dashboard from '../pages/Dashboard';
 import UserProfile from '../pages/UserProfile';
+import ClientDetails from '../pages/ClientDetails';
 
 const AdminRoutes = () => {
   return (
     <>
       <Route path="/" element={<Dashboard />} />
       <Route path="/profile" element={<UserProfile />} />
+      <Route path="/clients/:id" element={<ClientDetails />} />
     </>
   );
 };
@@ -18,6 +20,7 @@ const UserRoutes = () => {
     <>
       <Route path="/" element={<Dashboard />} />
       <Route path="/profile" element={<UserProfile />} />
+      <Route path="/clients/:id" element={<ClientDetails />} />
     </>
   );
 };

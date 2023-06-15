@@ -1,12 +1,15 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import CompaniesTable from '../components/CompaniesTable';
+import { Box } from '@chakra-ui/react';
 
 const Dashboard = () => {
   return (
     <Layout>
-      <h1>Dashboarddddddddddddddddddddddddddddddddddddddd</h1>
-      <CompaniesTable/>
+      <Box m={2}>
+        <h1>Dashboard</h1>
+        <CompaniesTable/>
+      </Box>
     </Layout>
   );
 };
