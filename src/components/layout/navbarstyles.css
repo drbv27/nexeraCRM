@@ -7,6 +7,10 @@
 .wrap{
     display: flex;
 }
+.principal{
+    flex-grow: 1;
+    height: 90vh;
+}
 nav{
     height: 10vh;
     width: 100vw;

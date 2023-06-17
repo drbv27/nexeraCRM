@@ -43,7 +43,7 @@ const clients = [
   {
     id: 2,
     companyName: 'Second Company',
-    companyStatus: 'procesing',
+    companyStatus: 'processing',
     details: {
       address: 'address of second company',
       city: 'los angeles',
